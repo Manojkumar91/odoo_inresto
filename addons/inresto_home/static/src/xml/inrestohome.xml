@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <templates>
+        <t t-name="HomePageTemplate">
+           <!-- <a t-attf-href="/web#menu_id=320&action="> -->
+			<div class="inres_home_item"> </div>
+			<!-- </a> -->
+        </t>
+    </templates>

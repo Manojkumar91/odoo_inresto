@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <record model="ir.ui.view" id="x_scrap_reason">
+        <field name="name">Scrap Move</field> <!-- View Name of UI component we want to add field to -->
+        <field name="model">stock.move.scrap</field> <!-- Object Name of UI component we want to add field to -->
+        <field name="inherit_id" ref="stock.view_stock_move_scrap_wizard" /> <!-- External ID of UI component we want to add field to -->
+        <field name="arch" type="xml">
+			<field name="location_id" position="after"> <!-- Field name after which we want to add new field -->
+			  <field name="x_scrap_reason" widget="char" /> <!-- New field name to be added -->
+			</field>
+		 </field>
+    </record>
+  </data>
+</openerp>
